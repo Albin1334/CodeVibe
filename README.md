@@ -1,5 +1,5 @@
 # CodeVibe
-# 🩺 Medi book: 100% Offline AI Health Assistant
+# Medi book: 100% Offline AI Health Assistant
 Medi book is a completely private, air-gapped AI health and wellness assistant. Built for areas with low connectivity and users who prioritize absolute data security, this app runs entirely on your local hardware without ever sending a single byte of patient data to the cloud.
 
 ## The Problem
@@ -10,7 +10,7 @@ Modern AI health tools rely on centralized cloud servers (like OpenAI or Google 
 ## Our Solution
 Medi book bypasses the cloud entirely. By leveraging on-device Large Language Models (LLMs) via Ollama, we bring the intelligence of modern AI directly to the user's local machine. 
 
-## 🛠️ Technology Stack
+## Technology Stack
 Medi book was intentionally built without bloated frontend frameworks or cloud dependencies.
 * AI Engine:[Ollama](https://ollama.com/) (running `tinyllama` for rapid CPU inference)
 * Backend: Python 3 & Flask
